@@ -8,3 +8,8 @@ A. Project Overview This project presents an image classification model develope
 B.🌿 Plant Species Gallery
 
 Common Name \ Scientific Name \ Description \ Image
+Dracaena \
+Zamioculcas Zamiifolia \
+Tradescantia \
+purple passion plant \
+Watermelon Peperomia \
