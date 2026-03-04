@@ -31,3 +31,21 @@ A. Project Overview This project presents an image classification model develope
 | Burro's Tail | *Sedum morganianum* | Long, thick stems densely packed with plump, pale blue-green to gray-green leaves that resemble a braided donkey tail | <img width="200" src="https://github.com/user-attachments/assets/d374835b-25a6-42d7-bfb0-b5fb10ec7d9f" /> |
 | Chinese Money Plant | *Pilea peperomioides* | Coin-shaped, glossy dark green leaves that grow on long petioles | <img width="200" src="https://github.com/user-attachments/assets/08671a84-7d71-4de3-9d2f-36439180dbab" /> |
 | Boston Fern | *Nephrolepis exaltata* | Lush, arching, sword-shaped fronds and cascading growth | <img width="200" src="https://github.com/user-attachments/assets/d484b5ea-4051-452d-aa06-dc5078fab6b4" /> |
+
+
+## 🧪 E. Model Testing
+
+Below are 10 tests performed using images the model had not seen during training. These results demonstrate the model's ability to generalize and accurately identify plant species under various conditions.
+
+| Test | Plant | Result | Confidence | Images |
+|------|-------|--------|------------|--------|
+| Test 1 | Dracaena | ✅ Correct | 94% | <img width="150" src="https://github.com/user-attachments/assets/8b3e66fe-2fdf-4cdc-8f58-ca19dea9ae09" /> |
+| Test 2 | Zamioculcas Zamiifolia | ✅ Correct | 100% | <img width="150" src="https://github.com/user-attachments/assets/55929715-fb8c-4d61-8292-4ecbf01e8229" /> |
+| Test 3 | Tradescantia | ✅ Correct | 94% | <img width="150" src="https://github.com/user-attachments/assets/bdd26041-2f66-45d5-9219-ed1c9643ddfe" /> |
+| Test 4 | Purple Passion Plant | ✅ Correct | 95% | <img width="150" src="https://github.com/user-attachments/assets/c10c9347-55e7-4591-aded-db0885437cc9" /> |
+| Test 5 | Watermelon Peperomia | ✅ Correct | 97% | <img width="150" src="https://github.com/user-attachments/assets/30d8dc45-7ec9-4477-af03-ac8036680aa9" /> |
+| Test 6 | String of Hearts | ✅ Correct | 98% | <img width="150" src="https://github.com/user-attachments/assets/e9fe3588-b9fc-4822-bf2c-89f8179d9b1e" /> <br> <img width="150" src="https://github.com/user-attachments/assets/d8aaf71c-8022-479b-8f94-e6a828a9be6d" /> |
+| Test 7 | Spider Plant | ✅ Correct | 90% | <img width="150" src="https://github.com/user-attachments/assets/c8415560-1f1b-45d2-af56-41baa24bbdd1" /> <br> <img width="150" src="https://github.com/user-attachments/assets/43a004a3-4eb8-437d-a4c3-b9c7355cdc4e" /> |
+| Test 8 | Prayer Plant | ✅ Correct | 92% | <img width="150" src="https://github.com/user-attachments/assets/fdaca923-bd01-408c-8218-2c124f60ee66" /> <br> <img width="150" src="https://github.com/user-attachments/assets/69d9fa3a-9220-4dca-8d88-30b2b95d7f84" /> |
+| Test 9 | Plumosus Asparagus Fern | ✅ Correct | 92% | <img width="150" src="https://github.com/user-attachments/assets/c5f15db4-8318-4543-84da-7ca4433a9838" /> <br> <img width="150" src="https://github.com/user-attachments/assets/ab24ec72-66e0-4e6d-bdb6-121c9c4f4c69" /> |
+| Test 10 | Philodendron | ✅ Correct | 90% | <img width="150" src="https://github.com/user-attachments/assets/0f4ffa61-3617-4abe-94a4-f1129a8828aa" /> <br> <img width="150" src="https://github.com/user-attachments/assets/35cd2ed1-194f-40fb-9b1d-0f75a624ddb3" /> |
