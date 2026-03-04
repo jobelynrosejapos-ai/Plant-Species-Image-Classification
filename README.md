@@ -3,7 +3,9 @@ Laboratory Work 2-A Activity — Plant Species Image Classification  Using Teach
 
 Plant Species Image Classification Using Teachable Machine
 
-A. Project Overview This project presents an image classification model developed to recognize 20 distinct plant species. Utilizing a dataset of 5000 images, the model was trained to differentiate among various plant morphological features, including structural characteristics, leaf patterns, and color variations. The system is intended to support gardeners and botany students in the efficient identification of common ornamental and wild plant species.
+#A
+
+Project Overview This project presents an image classification model developed to recognize 20 distinct plant species. Utilizing a dataset of 5000 images, the model was trained to differentiate among various plant morphological features, including structural characteristics, leaf patterns, and color variations. The system is intended to support gardeners and botany students in the efficient identification of common ornamental and wild plant species.
 
 #B
 
@@ -33,7 +35,7 @@ A. Project Overview This project presents an image classification model develope
 | Boston Fern | *Nephrolepis exaltata* | Lush, arching, sword-shaped fronds and cascading growth | <img width="200" src="https://github.com/user-attachments/assets/d484b5ea-4051-452d-aa06-dc5078fab6b4" /> |
 
 
-## 🧪 E. Model Testing
+## 🧪 C. Model Testing
 
 Below are 10 tests performed using images the model had not seen during training. These results demonstrate the model's ability to generalize and accurately identify plant species under various conditions.
 
@@ -49,3 +51,50 @@ Below are 10 tests performed using images the model had not seen during training
 | Test 8 | Prayer Plant | ✅ Correct | 92% | <img width="150" src="https://github.com/user-attachments/assets/fdaca923-bd01-408c-8218-2c124f60ee66" />  <img width="150" src="https://github.com/user-attachments/assets/69d9fa3a-9220-4dca-8d88-30b2b95d7f84" /> |
 | Test 9 | Plumosus Asparagus Fern | ✅ Correct | 92% | <img width="150" src="https://github.com/user-attachments/assets/c5f15db4-8318-4543-84da-7ca4433a9838" />  <img width="150" src="https://github.com/user-attachments/assets/ab24ec72-66e0-4e6d-bdb6-121c9c4f4c69" /> |
 | Test 10 | Philodendron | ✅ Correct | 90% | <img width="150" src="https://github.com/user-attachments/assets/0f4ffa61-3617-4abe-94a4-f1129a8828aa" />  <img width="150" src="https://github.com/user-attachments/assets/35cd2ed1-194f-40fb-9b1d-0f75a624ddb3" /> |
+
+
+📊 D. Dataset and Training Configuration
+Dataset Distribution
+Total Images: 5,000
+Number of Classes: 20 plant species
+Images per Class: ~200-260 average (distribution varies by species)
+
+## ⚙️ Training Parameters
+
+| Parameter | Value |
+|-----------|-------|
+| Epochs | 100 |
+| Batch Size | 64 |
+| Learning Rate | 0.0001 |
+| Platform | Google Teachable Machine |
+
+Class Distribution
+The dataset encompasses 20 distinct plant species with approximately 200-300 images per class, though some species have slightly more or fewer samples based on availability and morphological diversity requirements.
+
+## 📈 E. Model Performance Evaluation
+
+### Training Accuracy & Loss Metrics
+
+The model was trained for 100 epochs using Google Teachable Machine, achieving strong performance metrics as shown in the graphs below. The training process demonstrates effective learning with minimal overfitting.
+
+| Training Accuracy | Training Loss |
+|-------------------|---------------|
+| <img width="300" src="https://github.com/user-attachments/assets/946e4482-2463-4dea-83bf-5135f1a24ea1" /> | <img width="300" src="https://github.com/user-attachments/assets/963db4af-473a-4f63-8d2c-fc9d98971ca6" /> |
+
+### Performance Summary
+
+| Metric | Value |
+|--------|-------|
+| **Final Training Accuracy** | ~98% |
+| **Final Validation Accuracy** | ~96% |
+| **Final Training Loss** | ~0.08 |
+| **Final Validation Loss** | ~0.12 |
+| **Total Epochs** | 100 |
+| **Dataset Size** | 5,000 images (20 species) |
+
+### Key Observations
+
+- **Steady Convergence**: Both accuracy and loss curves show smooth convergence throughout training
+- **Minimal Overfitting**: The close alignment between training and validation metrics indicates good generalization
+- **Strong Performance**: Final validation accuracy above 95% demonstrates the model's effectiveness for plant species identification
+
